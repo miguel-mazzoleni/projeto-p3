@@ -1,0 +1,51 @@
+{
+  "name": "carteira-digital",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^7.24.0",
+    "idb-keyval": "^3.2.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-icons": "^3.11.0",
+    "react-onesignal": "^1.7.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.4",
+    "react-toastify": "^6.1.0",
+    "styled-components": "^5.2.0",
+    "styled-system": "^5.1.5",
+    "webfontloader": "^1.6.28"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "envify": "^4.1.0",
+    "prettier": "^2.1.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "terser": "^5.3.8",
+    "terser-brunch": "^4.0.0",
+    "uglifyify": "^5.0.2"
+  }
+}
